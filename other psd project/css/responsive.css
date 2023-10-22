@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* Extra small devices (phones) */
+@media only screen and (max-width: 361px) {
+    .watch img {
+        width: 215px;
+        height: 283px;
+        margin-bottom: 36px;
+        margin-left: -4rem;
+    }
+    #home{
+        margin-top: -10rem;
+    }
+    header{
+        padding-top: 18rem;
+        height: 100vh;
+    }
+    #sky {
+
+        font-size: 15px;
+        margin-left: -2rem;
+    }
+    .navbar-toggler{
+        font-size: 1rem !important;
+        margin-right: -3rem;
+        background-color: #34495E !important;
+    }
+    .navbar-toggler-icon {
+        width: 1em;
+        height: 1em;
+    }
+    .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+        text-align: center;
+    }
+    #home {
+        margin: -13rem -2rem 1rem;
+    }
+    #top h1 {
+        font-size: 2.5rem;
+    }
+    #top p {
+        width: 125%;
+        max-width: 500px;  
+    }
+    #scroll-button {
+        margin: -2rem 0 0 18rem;
+    }
+    #services .col{
+        margin: 1rem -2rem;
+    }
+    #about{
+        margin: 1rem -2rem;
+    }
+    #about .col p{
+        width: 121%;
+        max-width: 250rem;
+    }
+    #person img {
+        margin: -5rem -1rem;
+        width: 320px;
+        height: 250px;
+    }
+    #person .img-fluid {
+        max-width: 250%;
+        height: auto;
+    }
+    #work{
+        margin: 1rem -2rem;
+    }
+    #work hr{
+        width: 50%;
+    }
+    .watch img {
+        margin-left: 4rem;
+    }
+    .contrast .watch-1 img {
+        margin: 5px;
+        width: 150%;
+        max-width: 250%;
+        padding: 1rem;
+    }
+    .fetch .col {
+        color: #fff;
+        text-align: center;
+        padding: 5px;
+        margin: 3px;
+        margin-left: -2rem;
+        background-color: #34495E;
+        width: 123%;
+        max-width: 250%;
+    }
+    .fetch h6{
+        color: #fff;
+    }
+    .fetch i{
+        padding-top: 15px;
+    }
+    .fun {
+        padding: 19px 0;
+        margin: 0rem;
+        padding-top: 0rem;
+    }
+    .skill .col{
+        margin: 1rem -2rem;
+    }
+    .skill h3{
+        margin: 1rem -2rem;
+        padding-bottom: 10px;
+    }
+    .skill p {
+        width: 124%;;
+    }
+    .progres{
+        width: 100%;
+    }
+    .testimonial .col{
+        margin-top: -2rem;
+    }
+    .card-small{
+        top: 5rem;
+    }
+    #small-box p {
+        width: 105%;
+    }
+    .blog .col{
+        margin: 1rem -1rem;
+    }
+    .para{
+        margin: 1rem -2rem;
+    }
+    .mid-section{
+        margin: 1rem -2rem;
+    }
+    .second-section #mid-sec{
+        margin: 1rem -1rem;
+    }
+    .d-flex div h6 {
+        width: 136%;
+        max-width: 250%;
+    }
+}
+
+
+/*for  mobile device */
+@media (max-width:480px) {
+    header {
+        height: 123vh;
+    }
+    .container, .container-fluid,
+    .container-lg, .container-md, 
+    .container-sm, .container-xl, 
+    .container-xxl {
+        --bs-gutter-x: 0rem !important;
+    }
+    #top{
+        margin-top: 4rem !important;
+        margin: 0 -2rem;
+    }
+    #top h1 {
+        font-size: 2.5rem;
+        width: 50%;
+    }
+    .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+        text-align: center;
+    }
+    #sky {
+        font-size: 18px;
+        margin: 0 -1rem;
+    }
+    .navbar-toggler {
+        margin: 0 -1rem;
+        font-size: 4px;
+        background-color: #34495E !important;
+      
+    }
+    .navbar-toggler-icon {
+        width: 1em;
+        height: 1em;
+        font-size: 1rem;
+    }
+
+    #scroll-button {
+        margin: 1rem 0 0 25rem;
+    }
+    .fetch .col {
+        color: #fff;
+        text-align: center;
+        padding: 2px;
+        margin: 3px;
+        margin-left: -0.6rem;
+        background-color: #34495E;
+        width: 105%;
+        max-width: 250%;
+    }
+    .fetch h6{
+        color: #fff;
+    }
+    .fetch i{
+        padding-top: 15px;
+    }
+    .container .col{
+        margin: 1rem -2rem;
+    }
+    #btn-btn {
+        margin: 0 -1rem;
+    }
+    .container .col {
+        margin: 1rem -1rem;
+    }
+    .skill h3{
+        margin: 0 0 2rem -1rem;
+    }
+}
+
+
+/* extra small device */
+@media (min-width:481px) and (max-width:767px) {
+    header {
+        height: 123vh;
+    }
+    .container, .container-fluid,
+    .container-lg, .container-md, 
+    .container-sm, .container-xl, 
+    .container-xxl {
+        --bs-gutter-x: 0rem !important;
+    }
+    #top{
+        margin-top: 4rem !important;
+        margin: 0 -2rem;
+    }
+    #top h1 {
+        font-size: 2.5rem;
+        width: 50%;
+    }
+    .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+        text-align: center;
+    }
+    #sky {
+        font-size: 18px;
+        margin: 0 -1rem;
+    }
+    .navbar-toggler {
+        margin: 0 -1rem;
+        font-size: 4px;
+        background-color: #34495E !important;
+      
+    }
+    .navbar-toggler-icon {
+        width: 1em;
+        height: 1em;
+        font-size: 1rem;
+    }
+
+    #scroll-button {
+        margin: 1rem 0 0 25rem;
+    }
+    .fetch .col {
+        color: #fff;
+        text-align: center;
+        padding: 2px;
+        margin: 3px;
+        margin-left: -0.6rem;
+        background-color: #34495E;
+        width: 105%;
+        max-width: 250%;
+    }
+    .fetch h6{
+        color: #fff;
+    }
+    .fetch i{
+        padding-top: 15px;
+    }
+    .container .col{
+        margin: 1rem -2rem;
+    }
+    #btn-btn {
+        margin: 0 -1rem;
+    }
+    .container .col {
+        margin: 1rem -1rem;
+    }
+    .watch img {
+        margin-left: 22px;
+        width: 350px;
+        padding-bottom: 2rem;
+    } 
+    .fun {
+        height: 50;
+      }
+      .container h3 {
+        padding-bottom: 2rem;
+        margin-left: -1rem;
+    }
+    .card-small {
+        top: 10rem;
+    }
+
+}
+
+/* small tablet */
+@media(min-width:768px) and (max-width: 991px) {
+    header {
+        height: 123vh;
+    }
+    .container, .container-fluid,
+    .container-lg, .container-md, 
+    .container-sm, .container-xl, 
+    .container-xxl {
+        --bs-gutter-x: 0rem !important;
+    }
+    #top{
+        margin-top: 4rem !important;
+        margin: 0 -2rem;
+    }
+    #top h1 {
+        font-size: 2.5rem;
+        width: 50%;
+    }
+    .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+        text-align: center;
+    }
+    #sky {
+        font-size: 18px;
+        margin: 0 -1rem;
+    }
+    .navbar-toggler {
+        margin: 0 -1rem;
+        font-size: 4px;
+        background-color: #34495E !important;
+      
+    }
+    .navbar-toggler-icon {
+        width: 1em;
+        height: 1em;
+        font-size: 1rem;
+    }
+
+    #scroll-button {
+        margin: -7rem 0 0 43rem;
+     }
+    .fetch .col {
+        color: #fff;
+        text-align: center;
+        padding: 2px;
+        margin: 3px;
+        margin-left: -0.6rem;
+        background-color: #34495E;
+        width: 105%;
+        max-width: 250%;
+    }
+    .fetch h6{
+        color: #fff;
+    }
+    .fetch i{
+        padding-top: 15px;
+    }
+    .container .col{
+        margin: 1rem -2rem;
+    }
+    #btn-btn {
+        margin: 0 -1rem;
+    }
+    .container .col {
+        margin: 1rem -1rem;
+    }
+    .watch img {
+        margin-left: 22px;
+        width: 350px;
+        padding-bottom: 2rem;
+    } 
+    .fun {
+        height: 50;
+      }
+      .container h3 {
+        padding-bottom: 2rem;
+        margin-left: -1rem;
+    }
+    .card-small {
+        top: 10rem;
+    }
+}
+
